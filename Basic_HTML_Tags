@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-<h1>My First Page</h1>
-<h1>heading 1</h1>
-<h2>heading 2</h2>
-<h3>heading 3</h3>
-<h4>heading 4 </h4>
-<h5>heading 5 </h5>
-<h6>heading 6 </h6>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
-<hr>
-<p> This is some other text </p>
-<hr>
-<p>This is </p><br>
-<p> a paragraph</p><br>
-<p>with line breaks</p>
+    <!-- text formatting elements -->
+    <b>Bold text</b><br>
+    <!--element defines bold text, without any extra importance-->
+
+    <strong>Important text</strong><br>
+    <!--element defines text with strong importance. The content inside is typically displayed in bold-->
+
+    <i>Italic text</i><br>
+    <!-- Element defines text with strong importance.The content inside is typically displayed in italic-->
+
+    <em>Emphasized text</em><br>
+    <!-- Element defines emphasized text. The content inside is typically displayed in italic. used for importance sentences-->
+
+    <mark>Marked text</mark><br>
+    <!-- defines text that should be marked or highlighted-->
+
+    <small>Smaller text</small><br>
+    <!-- defines smaller text-->
+
+    <del>Deleted text</del><br>
+    <!--defines text that has been deleted from a document. Browsers will usually strike a line through deleted text-->
+
+    <ins>Inserted text</ins><br>
+    <!--defines a text that has been inserted into a document. Browsers will usually underline inserted text-->
+
+    <sub>Subscript text</sub>
+    <!--defines subscript text-->
+    <p>This is <sub>subscripted</sub> text.</p>
+
+    <sup>Superscript text</sup>
+    <!--defines superscript text-->
+    <p>This is <sup>superscripted</sup> text.</p>
+
+    <!-- ################################################ -->
+
+    <h1>heading1</h1> <!-- The highest level heading -->
+    <h2>heading2</h2> <!-- The second level heading -->
+    <h3>heading3</h3> <!-- The third level heading -->
+    <h4>heading4</h4> <!-- The fourth level heading -->
+    <h5>heading5</h5> <!-- The fifth level heading -->
+    <h6>heading6</h6> <!-- The sixth level heading -->
+    <p>This is a paragraph</p> <!-- A paragraph of text -->
+    <p>This is another paragraph</p> <!-- Another paragraph of text -->
+    <hr /> <!-- A thematic break or horizontal rule -->
+    <h2>This is Heading2</h2> <!-- Another second level heading -->
+    <p>This is some other text.</p> <!-- A paragraph of text -->
+    <hr /> <!-- Another thematic break or horizontal rule -->
+    <p>
+        This is <br /> <!-- A line break -->
+        a paragraph <br /> <!-- Another line break -->
+        with line breaks
+    </p>
 </body>
+
 </html>
