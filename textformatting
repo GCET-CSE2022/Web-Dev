@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text formatting</title>
+</head>
 <body>
-<b>Bold text</b>
-<strong>Important text</strong>
-<i>Italic text</i>
-<em>Emphasized text</em>
-<mark>Marked text</mark>
-<small>Smaller text</small>
-<del>Deleted text</del>
-<ins>Inserted text</ins>
-<p>This is <sub>subscripted</sub>text.</p>
-<p>This is <sup>superscripted</sup>text.</p>
+    
+    <!-- text formatting elements -->
+    <b>Bold text</b><br>  
+    <!--element defines bold text, without any extra importance-->
+
+    <strong>Important text</strong><br> 
+    <!--element defines text with strong importance. The content inside is typically displayed in bold-->
+    
+    <i>Italic text</i><br> 
+    <!-- Element defines text with strong importance.The content inside is typically displayed in italic-->
+    
+    <em>Emphasized text</em><br> 
+    <!-- Element defines emphasized text. The content inside is typically displayed in italic. used for importance sentences-->
+    
+    <mark>Marked text</mark><br> 
+    <!-- defines text that should be marked or highlighted-->
+    
+    <small>Smaller text</small><br> 
+    <!-- defines smaller text-->
+    
+    <del>Deleted text</del><br> 
+    <!--defines text that has been deleted from a document. Browsers will usually strike a line through deleted text-->
+    
+    <ins>Inserted text</ins><br> 
+    <!--defines a text that has been inserted into a document. Browsers will usually underline inserted text-->
+    
+    <sub>Subscript text</sub> 
+    <!--defines subscript text-->
+    <p>This is <sub>subscripted</sub> text.</p>
+    
+    <sup>Superscript text</sup> 
+    <!--defines superscript text-->
+    <p>This is <sup>superscripted</sup> text.</p>
 </body>
 </html>
