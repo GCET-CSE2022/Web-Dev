@@ -1,0 +1,2 @@
+Use of JS variables (using let, var) , datatypes, operators etc.
+JS alert, JS button
